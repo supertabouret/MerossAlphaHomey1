@@ -10,7 +10,7 @@ class MerossDriver extends Driver {
         this.capabilities = [
             'onoff'
         ]
-        this.merossType = 'mss310'
+        this.merossType = 'mss210'
         this.log(this.merossType, 'has been inited');
     }
 
